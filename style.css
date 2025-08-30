@@ -1,0 +1,85 @@
+* {
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 2rem;
+    background: #f5f6fa;
+}
+
+.grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px auto;
+} */
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item-a{
+    grid-column: span 2;
+} */
+
+/* This is us naming the items */
+/* header {
+    grid-area: header;
+}
+
+span{
+    grid-area: span;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+footer {
+    grid-area: footer;
+} */
+
+/* This is us drawing the layout */
+
+/* .page-layout{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main   sidebar"
+    "span span"
+    "footer  footer"
+    ;
+} */
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+} */
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    justify-items: center;
+    align-items: center;
+} */

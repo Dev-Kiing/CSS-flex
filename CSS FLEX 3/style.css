@@ -1,43 +1,43 @@
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #f8f9fa;
     color: #343a40;
     margin: 0;
     padding: 2rem;
 }
 
-.pricing-section{
+.pricing-section {
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.section-title{
+.section-title {
     font-size: 2.5rem;
     font-weight: 700;
     color: #212529;
 }
 
-.section-subtitle{
+.section-subtitle {
     font-size: 1.1rem;
     color: #6c757d;
     margin-bottom: 3rem;
 }
 
-.pricing-container{
+.pricing-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.pricing-card{
+.pricing-card {
     display: flex;
     flex-basis: 320px;
     flex-grow: 1;
@@ -45,40 +45,39 @@ body{
     background-color: #fff;
     border-radius: 10px;
     padding: 2rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
-.pricing-card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgb(0, 0, 0, 0.1);
+.pricing-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
-.card-header{
+.card-header {
     border-bottom: 1px solid #e9ecef;
     padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.card-header h3{
+.card-header h3 {
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0 0 0.5rem 0;
 }
 
-.price{
+.price {
     font-size: 1.2rem;
     color: #6c757d;
     margin: 0;
 }
 
-.price span{
+.price span {
     font-size: 3rem;
     font-weight: 700;
     color: #343a40;
 }
 
-.features{
+.features {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -86,7 +85,7 @@ body{
     line-height: 2;
 }
 
-.cta-button{
+.cta-button {
     margin-top: auto;
     display: block;
     width: 100%;
@@ -97,35 +96,30 @@ body{
     text-decoration: none;
     font-weight: 600;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
 
-.cta-button:hover{
+.cta-button:hover {
     background-color: #0056b3;
 }
 
-.pricing-card.featured{
+.pricing-card.featured {
     background: linear-gradient(45deg, #667eea, #764ba2);
     color: white;
-    transform: scale(1.05);
-    box-shadow: 0 16px 32px rgba(102, 126, 234, 0.3);
-}
-
-.featured:hover{
-    transform: scale(1.8) translateY(-10px);
+    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.15);
 }
 
 .featured .price,
 .featured .price span,
-.featured .card-header h3{
+.featured .card-header h3 {
     color: white;
 }
 
-.featured .cta-button{
+.featured .cta-button {
     background-color: white;
     color: #667eea;
 }
 
-.featured .cta-button:hover{
+.featured .cta-button:hover {
     background-color: #f0f2f5;
 }
